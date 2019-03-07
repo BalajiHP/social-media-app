@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.menu {
+    padding-top: 20px;
+}
+.menu li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 15px;
+    cursor: pointer;
+}

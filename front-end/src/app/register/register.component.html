@@ -1,0 +1,9 @@
+<form class="form" [formGroup]="registerForm">
+  <input formControlName="username" type="text" placeholder="Username"><br><br>
+  <input formControlName="email" type="email" placeholder="Email ID"><br><br>
+  <input formControlName="password" type="password" placeholder="Password"><br><br>
+  <input formControlName="cpass" type="password" placeholder="Conform Password"><br><br>
+  <button type="submit" (click)="register()">Register</button>
+  <button type="submit" (click)="moveToUser()">Login</button>
+
+</form>

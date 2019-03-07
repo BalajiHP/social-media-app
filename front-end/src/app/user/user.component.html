@@ -1,0 +1,7 @@
+<form [formGroup]="userForm" class="form">
+  <input formControlName="email" type="text" placeholder="Username"><br><br>
+  <input formControlName="password" type="password" placeholder="Password"><br><br>
+  <button type="submit" id="login-button" (click)=login()>Login</button>
+  <button type="submit" id="login-button" (click)="moveToRegister()">Register</button>
+
+</form>
